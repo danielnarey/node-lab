@@ -1,0 +1,26 @@
+{
+  "name": "starter-project",
+  "version": "1.0.0",
+  "description": "Starter project for interactive computing with Node.js and Project Jupyter",
+  "scripts": {
+    "setup": "pipenv install && npm install --python=python2.7 && npm run kernel:init",
+    "kernel:init": "node scripts/kernel-init.js",
+    "kernel:list": "pipenv run jupyter kernelspec list",
+    "kernel:console": "pipenv run jupyter console --kernel=ijavascript",
+    "kernel:notebook": "pipenv run jupyter notebook",
+    "kernel:lab": "pipenv run jupyter lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/freemachines/node-lab/starter-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {},
+  "devDependencies": {
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "ijavascript": "^5.0.20"
+  }
+}
