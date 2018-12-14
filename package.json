@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/freemachines/node-lab/starter-project.git"
+    "url": "https://github.com/freemachines/node-lab.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "Unlicense",
+  "author": "FreeMachines",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {},
   "devDependencies": {
     "execa": "^1.0.0",
