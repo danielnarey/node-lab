@@ -21,6 +21,6 @@
   "devDependencies": {
     "execa": "^1.0.0",
     "fs-extra": "^7.0.1",
-    "ijavascript": "^5.0.20"
+    "ijavascript": "^5.1.0"
   }
 }
