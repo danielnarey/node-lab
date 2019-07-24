@@ -8,7 +8,8 @@
     "kernel:list": "pipenv run jupyter kernelspec list",
     "kernel:console": "pipenv run jupyter console --kernel=ijavascript",
     "kernel:notebook": "pipenv run jupyter notebook",
-    "kernel:lab": "pipenv run jupyter lab"
+    "kernel:lab": "pipenv run jupyter lab",
+    "kernel:connect": "(nohup pipenv run jupyter notebook --no-browser --port=20201 > session-log.out 2>&1 </dev/null &) && echo \"Ready to accept connection on port 20201\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   "keywords": [],
   "author": "Daniel C. Narey",
   "license": "SEE LICENSE IN LICENSE",
-  "dependencies": {},
+  "dependencies": {
+    "data-table": "git+https://github.com/danielnarey/data-table.git"
+  },
   "devDependencies": {
     "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
