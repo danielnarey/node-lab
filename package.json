@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freemachines/node-lab.git"
+    "url": "https://github.com/danielnarey/node-lab.git"
   },
   "keywords": [],
-  "author": "FreeMachines",
+  "author": "Daniel C. Narey",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {},
   "devDependencies": {
-    "execa": "^1.0.0",
-    "fs-extra": "^7.0.1",
+    "execa": "^2.0.3",
+    "fs-extra": "^8.1.0",
     "ijavascript": "^5.1.0"
   }
 }

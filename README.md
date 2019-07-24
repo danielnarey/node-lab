@@ -1,4 +1,4 @@
-# freemachines/node-lab
+# node-lab
 
 **Starter project for interactive computing with Node.js and Project Jupyter**
 
@@ -10,7 +10,7 @@
 
 ### What is this repository?
 
-*freemachines/node-lab* is a starter project, created to simplify configuration
+*node-lab* is a starter project, created to simplify configuration
 and dependency management for interactive computing with
 [Node.js](https://nodejs.org) and
 [Project Jupyter](http://jupyter.org/documentation).
@@ -185,12 +185,9 @@ notices for dependencies included in the `package.json` and `Pipfile`.
 
 ### Documentation
 
-FreeMachines is a project of Daniel C. Narey. Unless otherwise indicated,
+Unless otherwise indicated,
 authorship for documentation in this repository should be credited to
 [Daniel C. Narey](https://github.com/danielnarey).
 All original documentation in this repository is licensed under the following
 terms:
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-The compound word "FreeMachines," also written as "freemachines," is an
-unregistered trademark of Daniel C. Narey.
